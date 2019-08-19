@@ -103,7 +103,7 @@ const qBank = [
         answers: ["Brasil","Francia","Croacia","Portugal"],
         correct: "Francia",
         questioId: "15"
-    },
+    }
 ];
-export default (n=5) =>
+export default (n = 5) =>
     Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0,n));

@@ -56,7 +56,8 @@ class SoccerQuiz extends Component {
                     />                                   
                 )
             )}
-            {this.state.responses === 5 ? (<Result score={this.state.score} playAgain={this.playAgain}/>) : null}
+            {this.state.responses === 5 ? (<Result score={this.state.score} playAgain={this.playAgain}/>
+            ) : null}
         </div>
         );
     }
