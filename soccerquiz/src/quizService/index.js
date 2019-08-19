@@ -8,7 +8,7 @@ const qBank = [
     },
     {
         question:
-        "",
+        "Cual es el nickname de la liga Alemana?",
         answers: ["Liga Calcio","Eredivisie","Bundesliga","Liga BBVA"],
         correct: "Bundesliga",
         questioId: "2"
