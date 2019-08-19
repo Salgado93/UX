@@ -42,7 +42,7 @@ class SoccerQuiz extends Component {
         return (
         <div className="Container">
             <div className="title">
-                Fútbol Trivia
+                Fútbol Quiz
             </div>
             {this.state.questionBank.length > 0 &&
             this.state.responses < 5 &&
